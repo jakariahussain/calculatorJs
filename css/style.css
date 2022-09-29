@@ -1,0 +1,42 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Project:    Politics Responsive Html Template
+Version:    1.0
+Last change:    0/0/18
+Author Name:
+-------------------------------------------------------------------*/
+
+
+/*         css Index
+	------------------------
+	1. .header_top
+	2. .header
+	3. .campaing_area
+	4. .about_area
+	5. .statistics_area
+	6. .Lates_compaign
+	7. .Information_area
+	8. .Donation_area
+	9. .purchase_area
+	9. .Conference_area
+	9. .Graphics_area
+	9. .Newsletter_area
+	9. .footer_area
+	9. .footer_bottom
+ */
+
+
+/*=======================================================================
+                               Default Style
+=========================================================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 28px;
+    font-size: 16px;
+}

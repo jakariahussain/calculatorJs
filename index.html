@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>JavaScript</title>
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- fontawesome.min.css -->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        button {
+            border-radius: 0 !important;
+            font-size: 20px !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Input Box -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="form_area d-flex my-3">
+                    <div class=" mr-2 w-100">
+                        <h4>First Value</h4>
+                        <input type="number" class="form-control w-100" name="" placeholder="Enter Your Number" id="num1">
+                    </div>
+                    <div class="w-100">
+                        <h4>Second Value</h4>
+                        <input type="number" class="form-control " name="" placeholder="Enter Your Number" id="num2">
+                    </div>
+                </div>
+                <!-- Result -->
+                <div class="result my-3"></div>
+                <!-- Operator  -->
+                <div class="actions d-flex justify-content-between align-items-center">
+                    <button onclick="action('+')" class="btn btn-info w-100 mr-1">+</button>
+                    <button onclick="action('-')" class="btn btn-info w-100 mr-1">-</button>
+                    <button onclick="action('*')" class="btn btn-info w-100 mr-1">*</button>
+                    <button onclick="action('/')" class="btn btn-info w-100 mr-1">/</button>
+                    <button onclick="action('clear')" class="btn btn-danger">Clear</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--All JavaScript Plugin-->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/fontawesome-all.js"></script>
+    <!-- main.js -->
+    <script src="app.js"></script>
+</body>
+
+</html>
